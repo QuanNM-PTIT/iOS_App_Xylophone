@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,21 +13,22 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOS_App_Xylophone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="yIO-bU-iDb">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="44" width="428" height="848"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mu9-Kx-GGE">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="104"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="108.33333333333333"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHM-1a-aL8">
-                                                <rect key="frame" x="10" y="0.0" width="394" height="104"/>
+                                                <rect key="frame" x="10" y="0.0" width="408" height="108.33333333333333"/>
                                                 <color key="tintColor" systemColor="systemRedColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="C">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                                    <color key="baseBackgroundColor" systemColor="systemRedColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="keyCPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NhT-z5-nC8"/>
@@ -43,14 +44,15 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gAg-Lg-fk0">
-                                        <rect key="frame" x="0.0" y="119" width="414" height="104"/>
+                                        <rect key="frame" x="0.0" y="123.33333333333334" width="428" height="108.33333333333334"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OD7-oL-JHW">
-                                                <rect key="frame" x="15" y="0.0" width="384" height="104"/>
+                                                <rect key="frame" x="15" y="0.0" width="398" height="108.33333333333333"/>
                                                 <color key="tintColor" systemColor="systemOrangeColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="D">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                                    <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
@@ -63,14 +65,15 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RbH-zl-55g">
-                                        <rect key="frame" x="0.0" y="238" width="414" height="104"/>
+                                        <rect key="frame" x="0.0" y="246.66666666666671" width="428" height="108.33333333333334"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bva-tv-Xp4">
-                                                <rect key="frame" x="20" y="0.0" width="374" height="104"/>
+                                                <rect key="frame" x="20" y="0.0" width="388" height="108.33333333333333"/>
                                                 <color key="tintColor" systemColor="systemYellowColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="E">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                                    <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
@@ -83,14 +86,15 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2gj-yZ-7fK">
-                                        <rect key="frame" x="0.0" y="357" width="414" height="104"/>
+                                        <rect key="frame" x="0.0" y="370" width="428" height="108"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2H8-Tg-Pg3">
-                                                <rect key="frame" x="25" y="0.0" width="364" height="104"/>
+                                                <rect key="frame" x="25" y="0.0" width="378" height="108"/>
                                                 <color key="tintColor" systemColor="systemGreenColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="F">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                                    <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
@@ -103,14 +107,15 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tyl-kI-man">
-                                        <rect key="frame" x="0.0" y="476" width="414" height="104"/>
+                                        <rect key="frame" x="0.0" y="492.99999999999994" width="428" height="108.33333333333331"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FOI-ze-lyy">
-                                                <rect key="frame" x="30" y="0.0" width="354" height="104"/>
+                                                <rect key="frame" x="30" y="0.0" width="368" height="108.33333333333333"/>
                                                 <color key="tintColor" systemColor="systemBlueColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="G">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                                    <color key="baseBackgroundColor" systemColor="systemBlueColor"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
@@ -123,14 +128,15 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EUm-Ay-v08">
-                                        <rect key="frame" x="0.0" y="595" width="414" height="104"/>
+                                        <rect key="frame" x="0.0" y="616.33333333333337" width="428" height="108.33333333333337"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OXf-4x-xBr">
-                                                <rect key="frame" x="35" y="0.0" width="344" height="104"/>
+                                                <rect key="frame" x="35" y="0.0" width="358" height="108.33333333333333"/>
                                                 <color key="tintColor" systemColor="systemGrayColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="A">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                                    <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
@@ -143,14 +149,15 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BJw-Qw-7gz">
-                                        <rect key="frame" x="0.0" y="714" width="414" height="104"/>
+                                        <rect key="frame" x="0.0" y="739.66666666666663" width="428" height="108.33333333333337"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UiO-jr-tGd">
-                                                <rect key="frame" x="40" y="0.0" width="334" height="104"/>
+                                                <rect key="frame" x="40" y="0.0" width="348" height="108.33333333333333"/>
                                                 <color key="tintColor" systemColor="systemPurpleColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="B">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                                    <color key="baseBackgroundColor" systemColor="systemPurpleColor"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
