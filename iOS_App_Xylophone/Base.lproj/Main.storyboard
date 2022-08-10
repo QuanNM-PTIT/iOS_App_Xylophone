@@ -24,14 +24,15 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHM-1a-aL8">
                                                 <rect key="frame" x="10" y="0.0" width="408" height="108.33333333333333"/>
+                                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" systemColor="systemRedColor"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="C">
-                                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
-                                                    <color key="baseBackgroundColor" systemColor="systemRedColor"/>
-                                                </buttonConfiguration>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="C">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                                 <connections>
-                                                    <action selector="keyCPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NhT-z5-nC8"/>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DoE-Ee-i1I"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -48,12 +49,16 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OD7-oL-JHW">
                                                 <rect key="frame" x="15" y="0.0" width="398" height="108.33333333333333"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" systemColor="systemOrangeColor"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="D">
-                                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
-                                                    <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
-                                                </buttonConfiguration>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="D">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pKF-k0-bu3"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -69,12 +74,16 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bva-tv-Xp4">
                                                 <rect key="frame" x="20" y="0.0" width="388" height="108.33333333333333"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" systemColor="systemYellowColor"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="E">
-                                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
-                                                    <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
-                                                </buttonConfiguration>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="E">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tnH-OK-CoH"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -90,12 +99,16 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2H8-Tg-Pg3">
                                                 <rect key="frame" x="25" y="0.0" width="378" height="108"/>
+                                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" systemColor="systemGreenColor"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="F">
-                                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
-                                                    <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
-                                                </buttonConfiguration>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="F">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="87q-9K-XrZ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -111,12 +124,16 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FOI-ze-lyy">
                                                 <rect key="frame" x="30" y="0.0" width="368" height="108.33333333333333"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" systemColor="systemBlueColor"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="G">
-                                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
-                                                    <color key="baseBackgroundColor" systemColor="systemBlueColor"/>
-                                                </buttonConfiguration>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="G">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AoN-f1-4b4"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -132,12 +149,16 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OXf-4x-xBr">
                                                 <rect key="frame" x="35" y="0.0" width="358" height="108.33333333333333"/>
+                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="A">
-                                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
-                                                    <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
-                                                </buttonConfiguration>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="A">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d50-V6-eAi"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -153,12 +174,16 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UiO-jr-tGd">
                                                 <rect key="frame" x="40" y="0.0" width="348" height="108.33333333333333"/>
+                                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" systemColor="systemPurpleColor"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="B">
-                                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
-                                                    <color key="baseBackgroundColor" systemColor="systemPurpleColor"/>
-                                                </buttonConfiguration>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="B">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="05z-2a-yDX"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

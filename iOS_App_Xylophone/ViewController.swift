@@ -15,14 +15,20 @@ class ViewController: UIViewController
     
     var player: AVAudioPlayer?
 
-    @IBAction func keyCPressed(_ sender: UIButton)
+    
+    @IBAction func keyPressed(_ sender: UIButton)
     {
-        playSound()
+        sender.alpha = 0.5
+        playSound(key: sender.currentTitle!)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2)
+        {
+            sender.alpha = 1
+        }
     }
     
-    func playSound()
+    func playSound(key: String)
     {
-        guard let path = Bundle.main.path(forResource: "C", ofType:"wav")
+        guard let path = Bundle.main.path(forResource: key, ofType:"wav")
         else
         {
             return
@@ -38,6 +44,11 @@ class ViewController: UIViewController
         {
             print(error.localizedDescription)
         }
+        /*
+            let url = Bundle.main.url(forResource: "C", withExtension: "wav")
+            player = try! AVAudioPlayer(contentsOf: url!)
+            player.play()
+        */
     }
     
 }
