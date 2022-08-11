@@ -11,7 +11,6 @@
 		BF20CE5B28A3EDFA00CC6CA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF20CE5A28A3EDFA00CC6CA5 /* SceneDelegate.swift */; };
 		BF20CE5D28A3EDFA00CC6CA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF20CE5C28A3EDFA00CC6CA5 /* ViewController.swift */; };
 		BF20CE6028A3EDFA00CC6CA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF20CE5E28A3EDFA00CC6CA5 /* Main.storyboard */; };
-		BF20CE6228A3EDFC00CC6CA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF20CE6128A3EDFC00CC6CA5 /* Assets.xcassets */; };
 		BF20CE6528A3EDFC00CC6CA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF20CE6328A3EDFC00CC6CA5 /* LaunchScreen.storyboard */; };
 		BF20CE7A28A423B500CC6CA5 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF20CE7328A423B500CC6CA5 /* A.wav */; };
 		BF20CE7B28A423B500CC6CA5 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF20CE7428A423B500CC6CA5 /* C.wav */; };
@@ -20,6 +19,7 @@
 		BF20CE7E28A423B500CC6CA5 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF20CE7728A423B500CC6CA5 /* G.wav */; };
 		BF20CE7F28A423B500CC6CA5 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF20CE7828A423B500CC6CA5 /* E.wav */; };
 		BF20CE8028A423B500CC6CA5 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF20CE7928A423B500CC6CA5 /* D.wav */; };
+		BF20CE8228A5077A00CC6CA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF20CE8128A5077900CC6CA5 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,6 @@
 		BF20CE5A28A3EDFA00CC6CA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BF20CE5C28A3EDFA00CC6CA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF20CE5F28A3EDFA00CC6CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BF20CE6128A3EDFC00CC6CA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF20CE6428A3EDFC00CC6CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF20CE6628A3EDFC00CC6CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF20CE7328A423B500CC6CA5 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		BF20CE7728A423B500CC6CA5 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
 		BF20CE7828A423B500CC6CA5 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
 		BF20CE7928A423B500CC6CA5 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		BF20CE8128A5077900CC6CA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 				BF20CE5A28A3EDFA00CC6CA5 /* SceneDelegate.swift */,
 				BF20CE5C28A3EDFA00CC6CA5 /* ViewController.swift */,
 				BF20CE5E28A3EDFA00CC6CA5 /* Main.storyboard */,
-				BF20CE6128A3EDFC00CC6CA5 /* Assets.xcassets */,
+				BF20CE8128A5077900CC6CA5 /* Assets.xcassets */,
 				BF20CE6328A3EDFC00CC6CA5 /* LaunchScreen.storyboard */,
 				BF20CE6628A3EDFC00CC6CA5 /* Info.plist */,
 				BF20CE7228A423B500CC6CA5 /* Sounds */,
@@ -157,8 +157,8 @@
 				BF20CE7E28A423B500CC6CA5 /* G.wav in Resources */,
 				BF20CE6528A3EDFC00CC6CA5 /* LaunchScreen.storyboard in Resources */,
 				BF20CE7D28A423B500CC6CA5 /* F.wav in Resources */,
-				BF20CE6228A3EDFC00CC6CA5 /* Assets.xcassets in Resources */,
 				BF20CE7A28A423B500CC6CA5 /* A.wav in Resources */,
+				BF20CE8228A5077A00CC6CA5 /* Assets.xcassets in Resources */,
 				BF20CE7C28A423B500CC6CA5 /* B.wav in Resources */,
 				BF20CE7F28A423B500CC6CA5 /* E.wav in Resources */,
 				BF20CE8028A423B500CC6CA5 /* D.wav in Resources */,
